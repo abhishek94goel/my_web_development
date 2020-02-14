@@ -1,0 +1,20 @@
+body{
+  background: pink;
+}
+h1{
+  color:green;
+  /*
+  border-width: 3px;
+  border-style: solid;
+  border-color: red;   One line shortcut below*/
+  border: 3px red solid;
+}
+
+h4{
+  color: black;
+  background: red;
+}
+
+li{
+  color: purple;
+}
