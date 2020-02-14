@@ -1,0 +1,17 @@
+/*different methods to put colors in the HTML File*/
+
+h1{
+  color:blue;  /*Using the in-built colors*/
+}
+
+h2{
+  color: #000000  /*Using the Hexadecimal color coding*/
+}
+
+h3{
+  color: rgb(255, 144, 144);  /*Using the RGB Color patter*/
+}
+
+h4{
+  color: rgba(255, 144, 144, 0.5); /*Using RGB with translucent factor*/
+}

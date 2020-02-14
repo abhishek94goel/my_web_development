@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- your metadata goes here-->
+    <title>This is the Form</title>
+</head>
+<body>
+  <h1>The trial of a forms</h1>
+  <h2>A simple form (without the <em>input</em> element attributes)</h2>
+  <form action="www.thegamesplace.page.tl">
+    <input type="Username">
+    <input type="password">
+    <input type="submit">
+    <button>Submit with button</button>
+  </form>
+
+  <h2>This is the form with <em>name</em> and <em>placeholder</em> attributes in <em>input</em> element</h2>
+  <form action="www.kirancity.in" method="get"> <!--"name" attribute of input only works with "get" method of form -->
+    <input name="username" type="text" placeholder="username">
+    <input type="password" placeholder="password">
+    <input type="color" placeholder="color">
+    <input type="submit">
+    <button>Put in</button>
+  </form>
+
+  <h2>This is the form with additional Labels (Labels method 1)</h2>
+  <form action="www.kirancity.in">
+    <label>
+      Username: <input type="text" placeholder="username">
+    </label>
+
+    <label>Password: <input type="password" placeholder="password"></label>
+  </form>
+
+  <h2>This is the form with labels method 2 (Labels method 2)</h2>
+  <form>
+    <label for="username">Username:</label>
+    <input id="username" type="text">
+
+    <label for="password">Password:</label>
+    <input id="password" type="password">
+  </form>
+
+
+  <h2>This is the Form with 'required' fields and email fields validation</h2>
+  <form action="www.kirancity.in">
+    <label for="username">Username:</label>
+    <input id="username" type="email" required>
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" required>
+
+    <button>Submit</button>
+  </form>
+
+</body>
+</html>
