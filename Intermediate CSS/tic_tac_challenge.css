@@ -15,10 +15,10 @@ td{
   height: 100px;
 }
 
-#item1{
+.item1{
   border-right: 2px solid black;
 }
-#item3{
+.item3{
   border-left: 2px solid black;
 }
 #r2 td{
