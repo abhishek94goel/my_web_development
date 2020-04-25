@@ -1,0 +1,11 @@
+<h1>Hi Welcome to the page of dynamic Posts</h1>
+
+<% for(var i=0; i < posts.length; i++) { %>
+    <li> <%= posts[i].title %> - <strong><%= posts[i].author %></strong> </li>
+<% } %>
+
+<!-- Second Method-->
+
+<% posts.forEach(function(post){ %>
+    <li> <%= post.title %> - <strong><%= post.author %></strong> </li>
+<% }) %>
